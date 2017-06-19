@@ -5,7 +5,7 @@ class SearchBar extends React.Component {
     constructor(props){
         super(props);
 
-        this.state = {term: 'Type something here'};
+        this.state = {term: 'Search'};
     }
 
     render() {
@@ -15,7 +15,6 @@ class SearchBar extends React.Component {
                     value={this.state.term}
                     onChange={e => this.setState({ term: e.target.value})}
                 />
-                Value of variable: {this.state.term}
             </div>
         );
     }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import YTSearch from 'youtube-api-search';
+
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import _ from 'lodash';
 
-const API_KEY = 'AIzaSyCchcPqzfUXQnyHUWXLABtVoYwBrXW-isg';
+const API_KEY = 'j8jeffrngbu5msbd8v5z8s94';
 
 class App extends Component {
     constructor(props) {
